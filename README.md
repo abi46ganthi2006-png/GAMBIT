@@ -165,7 +165,7 @@ moves for a human reading a game. Lives in `analysis/`:
 - `commentary_report.py` — renders the result as an actual browser-openable
   HTML report (per-move board snapshot, tag, explanation), not just
   terminal output.
-- `run_commentary_demo.py` — end-to-end runnable driver; see `SETUP.md`.
+- `run_commentary_demo.py` — end-to-end runnable driver; see `SETUP.md`.//
 
 **The key design decision, and the thing that makes the explanations
 actually answer "why did the agent do this"**: `engine/search.py`'s
